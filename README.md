@@ -39,7 +39,7 @@ To replicate the data cleaning process, follow these steps:
 
 ## Data Source:
 
-"The raw dataset was compiled from specifications publicly available on kaggle."
+The raw dataset was compiled from specifications publicly available on kaggle.
 [Kaggle 91mobiles dataset](https://www.kaggle.com/datasets/vaibhava1199/phones-dataset-by-91mobiles)
 
 ---
