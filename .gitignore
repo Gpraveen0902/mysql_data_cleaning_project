@@ -1,31 +1,10 @@
-## Ignore Visual Studio SSDT sqlproj specific temporary files, build results, etc
-## 
-##
-## Get latest from https://github.com/github/gitignore/blob/master/SSDT-sqlproj.gitignore
-# Build output
-bin/
-obj/
+# Data files - Prevents committing large raw or cleaned data files
+*.csv
 
-# DACPAC files
-*.dacpac
+# IDE and editor configuration - Ignores user-specific settings
+.vscode/
+.idea/
 
-# Publish profiles (optional, if environment-specific)
-*.publish.xml
-
-# SQL Server debug files
-*.dbmdl
-*.sqlcmdvars
-
-# Visual Studio settings
-.vs/
-
-# User-specific files
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Backup files
-*.bak
-*.log
-
+# OS-generated files - Ignores system clutter
+.DS_Store
+Thumbs.db
